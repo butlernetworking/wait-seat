@@ -32,9 +32,12 @@ resol = (1920,1080)
 gdis = pygame.display.set_mode(resol)
 
 wait = pygame.image.load('Pictures/pleasewait.jpg')
-wait1 = pygame.image.load('Pictures/pleasewaity.jpg')
-wait2 = pygame.image.load('Pictures/pleasewaitr.jpg')
-seat = pygame.image.load('Pictures/logoseatyourselfg.jpg')
+#wait1 = pygame.image.load('Pictures/pleasewaity.jpg')
+#wait2 = pygame.image.load('Pictures/pleasewaitr.jpg')
+#seat = pygame.image.load('Pictures/logoseatyourselfg.jpg')
+wait1 = pygame.image.load('Pictures/pleasewait1.jpg')
+wait2 = pygame.image.load('Pictures/pleasewait2.jpg')
+seat = pygame.image.load('Pictures/logoseatyourselfg2.jpg')
 
 waitpic=1 # 1=yellow, 2=red
 def togglepicture():
